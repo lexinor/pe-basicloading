@@ -39,7 +39,7 @@ export const MUSIC_ENABLED = true
 // a .ogg or an .mp3 (MUST BE PRESENT IN `music/` folder)
 export const MUSIC_FILE_NAME = 'music.mp3'
 
-export const MUSIC_START_VOLUME = 0.3
+export const MUSIC_START_VOLUME = 0.5
 
 // Enable github flavored markdown
 export const ENABLE_GFM_MARKDOWN = false
