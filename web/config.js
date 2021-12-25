@@ -27,7 +27,7 @@ export const LOADSCREEN_TIPS = [
   }
 ];
 
-// How long a tip is on screen before we aut omatically
+// How long a tip is on screen before we automatically
 // go to the next one (ms)
 export const TIP_CHANGE_INTERVAL = 10000
 
