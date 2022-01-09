@@ -10,6 +10,10 @@ export const LOADSCREEN_TIPS = [
     content: "Welcome to a freshly created **Ox Basic** server - **{{serverName}}**"
   },
   {
+    title: "NPWD",
+    content: "A fresh server will not have image hosting for NPWD configured automatically, you will need to set this up yourself if you wish to use the camera app [Docs](https://projecterror.dev/docs/npwd/start/installation/#setting-up-camera-functionality)"
+  },
+  {
     title: "Configuration",
     content: "If you are a developer configuring this server, make sure you update these tips in **/pe-basicloading/web/config.js**"
   },
