@@ -6,8 +6,8 @@
 */
 export const LOADSCREEN_TIPS = [
   {
-    title: "Ox Basic",
-    content: "Welcome to a freshly created **Ox Basic** server - **{{serverName}}**"
+    title: "{{serverName}}",
+    content: "Welcome to a freshly created **Ox ESX** server - **{{serverName}}**"
   },
   {
     title: "NPWD",
@@ -15,7 +15,7 @@ export const LOADSCREEN_TIPS = [
   },
   {
     title: "Configuration",
-    content: "If you are a developer configuring this server, make sure you update these tips in **/pe-basicloading/web/config.js**"
+    content: "If you are a developer configuring this server, make sure you update these tips in **/[pe]/pe-basicloading/web/config.js**"
   },
 ];
 
