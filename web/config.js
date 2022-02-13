@@ -7,7 +7,7 @@
 export const LOADSCREEN_TIPS = [
   {
     title: "{{serverName}}",
-    content: "Welcome to a freshly created **Ox ESX** server - **{{serverName}}**"
+    content: "Welcome to a freshly created **Overextended** server - **{{serverName}}**"
   },
   {
     title: "NPWD",
