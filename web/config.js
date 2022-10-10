@@ -6,8 +6,8 @@
 */
 export const LOADSCREEN_TIPS = [
   {
-    title: "Bold Tip",
-    content: "**This is just a bold tip. WOW its all bold!**"
+    title: "Bienvenue sur NewDawn !",
+    content: "Bienvenue sur NewDawn Roleplay ! Pour toute demande d'aide, rendez-vous sur le channel **#aide** sur discord ou contactez un administrateur en jeu avec la commande **/report**"
   },
   {
     title: "Italics Tip",
@@ -33,7 +33,7 @@ export const TIP_CHANGE_INTERVAL = 10000
 
 // How long we stay on a background until we
 // go to the next one (ms)
-export const BACKGROUND_CHANGE_INTERVAL = 5000
+export const BACKGROUND_CHANGE_INTERVAL = 7000
 
 // An array of image files that are available in the `bg` folder
 export const BACKGROUND_IMAGES = [
@@ -54,7 +54,7 @@ export const MUSIC_FILE_NAME = 'music.mp3'
 export const MUSIC_START_VOLUME = 0.3
 
 // Enable github flavored markdown
-export const ENABLE_GFM_MARKDOWN = false
+export const ENABLE_GFM_MARKDOWN = true
 
 // Enable or disable the included server logo to change this
 // logo simply switch the `logo.png` file with the image of your choice
