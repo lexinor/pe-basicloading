@@ -6,25 +6,17 @@
 */
 export const LOADSCREEN_TIPS = [
   {
-    title: "Bold Tip",
-    content: "**This is just a bold tip. WOW its all bold!**"
+    title: "{{serverName}}",
+    content: "Welcome to a freshly created **Overextended** server - **{{serverName}}**"
   },
   {
-    title: "Italics Tip",
-    content: "*Wew, now its all in italics*"
+    title: "NPWD",
+    content: "A fresh server will not have image hosting for NPWD configured automatically, you will need to set this up yourself if you wish to use the camera app [Docs](https://projecterror.dev/docs/npwd/start/installation/#setting-up-camera-functionality)"
   },
   {
-    title: "Bold Italics",
-    content: "***Lets now combine the best of both worlds! Lets use bold italics***"
+    title: "Configuration",
+    content: "If you are a developer configuring this server, make sure you update these tips in **/[pe]/pe-basicloading/web/config.js**"
   },
-  {
-    title: "Nice Tip 4",
-    content: "Find our discord here"
-  },
-  {
-    title: 'Markdown Render',
-    content: '**This is bold**. But this is not.  [This is a link!](https://github.com/project-error/pe-basicloading)'
-  }
 ];
 
 // How long a tip is on screen before we automatically
