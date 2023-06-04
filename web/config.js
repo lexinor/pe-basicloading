@@ -10,24 +10,16 @@ export const LOADSCREEN_TIPS = [
     content: "Bienvenue sur NewDawn Roleplay ! Pour toute demande d'aide, rendez-vous sur le channel **#aide** sur discord ou contactez un administrateur en jeu avec la commande **/report**"
   },
   {
-    title: "Italics Tip",
-    content: "*Wew, now its all in italics*"
+    title: "NPWD",
+    content: "A fresh server will not have image hosting for NPWD configured automatically, you will need to set this up yourself if you wish to use the camera app [Docs](https://projecterror.dev/docs/npwd/start/installation/#setting-up-camera-functionality)"
   },
   {
-    title: "Bold Italics",
-    content: "***Lets now combine the best of both worlds! Lets use bold italics***"
+    title: "Configuration",
+    content: "If you are a developer configuring this server, make sure you update these tips in **/[pe]/pe-basicloading/web/config.js**"
   },
-  {
-    title: "Nice Tip 4",
-    content: "Find our discord here"
-  },
-  {
-    title: 'Markdown Render',
-    content: '**This is bold**. But this is not.  [This is a link!](https://github.com/project-error/pe-basicloading)'
-  }
 ];
 
-// How long a tip is on screen before we aut omatically
+// How long a tip is on screen before we automatically
 // go to the next one (ms)
 export const TIP_CHANGE_INTERVAL = 10000
 
@@ -51,7 +43,7 @@ export const MUSIC_ENABLED = true
 // a .ogg or an .mp3 (MUST BE PRESENT IN `music/` folder)
 export const MUSIC_FILE_NAME = 'music.mp3'
 
-export const MUSIC_START_VOLUME = 0.3
+export const MUSIC_START_VOLUME = 0.5
 
 // Enable github flavored markdown
 export const ENABLE_GFM_MARKDOWN = true
