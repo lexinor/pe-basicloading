@@ -6,12 +6,12 @@
 */
 export const LOADSCREEN_TIPS = [
   {
-    title: "Bienvenue sur NewDawn !",
-    content: "Bienvenue sur NewDawn Roleplay ! Pour toute demande d'aide, rendez-vous sur le channel **#aide** sur discord ou contactez un administrateur en jeu avec la commande **/report**"
+    title: "Bienvenue sur New Dawn !",
+    content: "Bienvenue sur New Dawn Roleplay ! Pour toute demande d'aide, rendez-vous sur le channel **#aide** sur discord ou contactez un administrateur en jeu avec la commande **/report**"
   },
   {
-    title: "NPWD",
-    content: "A fresh server will not have image hosting for NPWD configured automatically, you will need to set this up yourself if you wish to use the camera app [Docs](https://projecterror.dev/docs/npwd/start/installation/#setting-up-camera-functionality)"
+    title: "Remontés de bugs",
+    content: "Lorsque vous rencontrez un bug, prenez un maximum de preuves et reportez-le au membre du staff, toute aide est bienvenue !"
   },
   {
     title: "Configuration",
@@ -25,14 +25,21 @@ export const TIP_CHANGE_INTERVAL = 10000
 
 // How long we stay on a background until we
 // go to the next one (ms)
-export const BACKGROUND_CHANGE_INTERVAL = 7000
+export const BACKGROUND_CHANGE_INTERVAL = 5000
 
 // An array of image files that are available in the `bg` folder
+// export const BACKGROUND_IMAGES = [
+//   "1.jpg",
+//   "2.jpg",
+//   "3.jpg",
+//   "4.jpg",
+// ]
 export const BACKGROUND_IMAGES = [
-  "1.jpg",
-  "2.jpg",
-  "3.jpg",
-  "4.jpg",
+  "sapd.png",
+  "ballas.png",
+  "taxi.png",
+  "families.png",
+  "lost.png",
 ]
 
 // Whether music should be played while loading,
@@ -53,7 +60,7 @@ export const ENABLE_GFM_MARKDOWN = true
 export const ENABLE_SERVER_LOGO = true
 
 // Define server logo placement ['top-left', 'top-right', 'bottom-right', 'center']
-export const SERVER_LOGO_POSITION = 'center'
+export const SERVER_LOGO_POSITION = 'bottom-right'
 
 // The name of your logo file within "logo/" directory
 export const SERVER_LOGO_FILE_NAME = 'logo.png'

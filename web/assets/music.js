@@ -46,7 +46,7 @@ export const startMusic = () => {
         if (music.paused) music.play();
         else music.pause();
         break;
-      case 'w': {
+      case 'z': {
         const wantedNewVol = music.volume + 0.05
         if (wantedNewVol > 1) return;
         music.volume = wantedNewVol;
