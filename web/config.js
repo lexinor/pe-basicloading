@@ -63,4 +63,4 @@ export const ENABLE_SERVER_LOGO = true
 export const SERVER_LOGO_POSITION = 'bottom-right'
 
 // The name of your logo file within "logo/" directory
-export const SERVER_LOGO_FILE_NAME = 'logo.png'
+export const SERVER_LOGO_FILE_NAME = 'logofull.png'
