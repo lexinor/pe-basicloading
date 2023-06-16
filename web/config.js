@@ -7,15 +7,15 @@
 export const LOADSCREEN_TIPS = [
   {
     title: "Bienvenue sur New Dawn !",
-    content: "Bienvenue sur New Dawn Roleplay ! Pour toute demande d'aide, rendez-vous sur le channel **#aide** sur discord ou contactez un administrateur en jeu avec la commande **/report**"
+    content: "Bienvenue sur New Dawn Roleplay ! Pour toute demande d'aide, rendez-vous sur le channel **#contact-staff** ou **#besoin d'aide** sur discord ou contactez un administrateur en jeu avec la commande **/report**"
   },
   {
     title: "Remontés de bugs",
-    content: "Lorsque vous rencontrez un bug, prenez un maximum de preuves et reportez-le au membre du staff, toute aide est bienvenue !"
+    content: "Lorsque vous rencontrez un bug, prenez un maximum de preuves et reportez-le au membre du staff, toute aide est la bienvenue !"
   },
   {
-    title: "Configuration",
-    content: "If you are a developer configuring this server, make sure you update these tips in **/[pe]/pe-basicloading/web/config.js**"
+    title: "Profitez et amusez-vous !",
+    content: "Vous êtes ici pour vous amuser et passer du bon temps ! Profitez-en et soyez fair-play avec tous les joueurs. Si un joueur venait à manquer à ça, remontez-le immédiatement à un staff"
   },
 ];
 
